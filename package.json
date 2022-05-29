@@ -1,0 +1,32 @@
+{
+  "name": "material_ui",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@hotwired/stimulus": "^3.0.1",
+    "@hotwired/turbo-rails": "^7.1.3",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.1",
+    "esbuild": "^0.14.41",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.0"
+  },
+  "version": "1.0.0",
+  "main": "app/javascript/react_app.jsx",
+  "repository": "git@github.com:rohanpujaris/material_ui.git",
+  "author": "Rohan Pujari <rohanpujaris@gmail.com>",
+  "license": "MIT"
+}
